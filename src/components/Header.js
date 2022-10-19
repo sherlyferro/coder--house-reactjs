@@ -1,7 +1,9 @@
+import Nabvar from './Nabvar';
+
 function Header() {
     return (
         <header>
-          <p>Cabecera</p>
+          <Nabvar/>
         </header>
     );
   }
