@@ -1,7 +1,9 @@
+import {Button} from 'react-bootstrap'
+
 function Container() {
     return (
         <main>
-          <p>Cabecera</p>
+          <Button variant="success">SHERLY</Button>
         </main>
     );
   }
