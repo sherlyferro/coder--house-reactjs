@@ -1,1 +1,16 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.pie-de-pagina {
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(79, 148, 244);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+
+}

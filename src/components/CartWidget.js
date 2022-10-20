@@ -1,11 +1,9 @@
 function CartWidget() {
     return (
-      
-         <span className="material-symbols-outlined">
+        <span className="material-symbols-outlined">
             flight
-          </span>
-      
+        </span>
     );
-  }
-  
-  export default CartWidget;
+}
+
+export default CartWidget;

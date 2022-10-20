@@ -1,7 +1,7 @@
 function Footer() {
     return (
-      <div className="App">
-        <h1> pie de pagina</h1>
+      <div >
+        <h1 className="pie-de-pagina"> pie de pagina</h1>
       </div>
     );
   }

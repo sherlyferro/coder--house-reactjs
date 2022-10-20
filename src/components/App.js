@@ -1,12 +1,12 @@
-import Header from './Header';
-import Container from './Container';
+import ItemListContainer from './ItemListContainer.js';
 import Footer from './Footer';
+import Nabvar from './Nabvar';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Container />
+      <Nabvar />
+      <ItemListContainer  title="Categorias" />
       <Footer />
     </div>
   );

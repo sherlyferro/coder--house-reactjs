@@ -8,12 +8,12 @@ function Nabvar() {
     <Navbar bg="primary" variant="dark">
       <Container>
         <Navbar.Brand href="#home">
-         <CartWidget/>
+          <CartWidget />
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#home">Fernet Store</Nav.Link>
           <Nav.Link href="#features"> Productos</Nav.Link>
-          <Nav.Link href="#pricing">Ventas</Nav.Link>
+          <Nav.Link href="#pricing">Precios</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
