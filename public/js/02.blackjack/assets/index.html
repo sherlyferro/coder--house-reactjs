@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackjack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="titulo">black jack</header>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button class="btn btn-danger">nuevo juego</button>
+            <button class="btn btn-primary">pedir carta</button>
+            <button class="btn btn-primary">detener</button>
+        </div>
+
+
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>jugador 1-<small>0</small></h1>
+            <div id="jugador-cartas">
+                <img  class="cartas"  src="./cartas/2C.png" alt="">
+                <img  class="cartas"  src="./cartas/2C.png" alt="">
+                <img  class="cartas"  src="./cartas/2C.png" alt="">
+                <img  class="cartas"  src="./cartas/2C.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>computadora-<small>0</small></h1>
+            <div id="computadora-cartas">
+                <img  class="cartas"  src="./cartas/3C.png" alt="">
+                <img  class="cartas"  src="./cartas/3C.png" alt="">
+                <img  class="cartas"  src="./cartas/3C.png" alt="">
+                <img  class="cartas"  src="./cartas/3C.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/juegos.js"></script>
+
+</html>

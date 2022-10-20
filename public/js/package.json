@@ -1,0 +1,15 @@
+{
+  "name": "sherly",
+  "version": "1.0.0",
+  "description": "empezado en js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "she she"
+  },
+  "author": "sherly Ferro",
+  "license": "ISC"
+}
