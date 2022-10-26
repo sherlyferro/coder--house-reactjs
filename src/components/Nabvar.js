@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,6 +15,9 @@ function Nabvar() {
           <Nav.Link href="#home">Fernet Store</Nav.Link>
           <Nav.Link href="#features"> Productos</Nav.Link>
           <Nav.Link href="#pricing">Precios</Nav.Link>
+          <span className="material-symbols-outlined">
+            menu
+        </span>
         </Nav>
       </Container>
     </Navbar>

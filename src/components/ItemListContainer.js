@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from 'react-bootstrap'
 
 function ItemListContainer(props) {
@@ -10,7 +11,12 @@ function ItemListContainer(props) {
         <li>Electro Hogar</li>
         <li> Dormitorio</li>
         <li> Muebles</li>
+        <Button>click</Button>
+      
       </ul>
+      <span className="material-symbols-outlined">
+            menu
+        </span>
     </div>
   );
 }
