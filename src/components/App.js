@@ -1,3 +1,4 @@
+import React from 'react';
 import ItemListContainer from './ItemListContainer.js';
 import Footer from './Footer';
 import Nabvar from './Nabvar';
