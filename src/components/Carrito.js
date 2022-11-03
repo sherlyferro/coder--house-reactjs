@@ -1,12 +1,11 @@
 import React from 'react';
 
-
-const ItemList =()=> {
+function carrito() {
   return (
     <div>
-     itemlist
+        carrito
     </div>
   )
 }
 
-export default ItemList;
+export default carrito;

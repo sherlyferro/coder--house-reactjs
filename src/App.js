@@ -1,16 +1,15 @@
 import React from 'react';
 import Nabvar from './components/Nabvar'
 import Main from './components/Main'
-import { BrowserRouter, Routes } from 'react-router-dom'
+import Footer from './components/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <BrowserRouter>
       <Nabvar />
       <Main />
-      <Routes>
-        
-      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
