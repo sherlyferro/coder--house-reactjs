@@ -1,7 +1,26 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-.encabezado{
-    background-color: rgb(251, 137, 66);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
+.encabezado {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(112, 9, 121, 1) 28%, rgba(96, 37, 140, 1) 60%, rgba(0, 212, 255, 1) 100%);
+}
+
+.enc_nav {
+    text-decoration: none;
+    color: rgb(236, 253, 252);
+    margin-right: 30px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+.enc_nav:hover {}
 
 .pie-de-pagina {
     text-align: center;
@@ -10,7 +29,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgb(62, 176, 252);
+    background: rgb(201, 197, 255);
+    background: linear-gradient(90deg, rgba(201, 197, 255, 1) 7%, rgba(150, 60, 209, 0.9609593837535014) 29%, rgba(227, 75, 240, 1) 60%, rgba(50, 245, 233, 1) 100%);
     height: auto;
     width: 100vw;
     padding-top: 40px;

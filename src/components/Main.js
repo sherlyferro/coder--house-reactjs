@@ -2,6 +2,10 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom'
 import ItemListContainer from './ItemListContainer';
 import Carrito from "./Carrito"
+import ItemListContainerAretes from './ItemListContainerAretes';
+import ItemListContainerPoleras from './ItemListContainerpoleras';
+
+
 function Main() {
     return (
         <main>
@@ -11,6 +15,10 @@ function Main() {
                 {/*productos + categorias*/}
                 <Route path='/productos' element={<ItemListContainer />} />
 
+                <Route path='/productos/aretes' element={<ItemListContainerAretes />} />
+
+
+                <Route path='/productos/poleras' element={<ItemListContainerPoleras />} />
                 {/*productos + categorias*/}
 
                 <Route path="/productos/:cat" element={<ItemListContainer />} />

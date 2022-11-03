@@ -4,12 +4,11 @@ import Container from 'react-bootstrap/Container';
 
 
 let productosIniciales = [
-    { id: 1, nombre: "arete 1",precio:20, categoria: "arete", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" },
-    { id: 2, nombre: "polos 1",precio:50, categoria: "polos", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" },
-    { id: 2, nombre: "pantalon 1",precio:110, categoria: "polos", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" }
-]
+    { id: 1, nombre: "poleras 1",precio:20, categoria: "polos", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" },
+    { id: 2, nombre: "poleras 2",precio:50, categoria: "polos", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" },
 
-const ItemListContainer = () => {
+]
+const ItemListContainerPoleras= () => {
 
     const [items, setItems] = useState([])
 
@@ -40,7 +39,7 @@ const ItemListContainer = () => {
     )
 }
 
-export default ItemListContainer;
+export default ItemListContainerPoleras;
 
 
 

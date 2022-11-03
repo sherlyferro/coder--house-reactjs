@@ -11,10 +11,10 @@ const Nav = () => {
   return (
     <nav className="encabezado">
       <CartWidget />
-      <Link to="/productos">productos</Link>
-      <Link to="/productos/aretes"> aretes</Link>
-      <Link to="/productos/poleras"> poleras</Link>
-      <Link to="/Carrito"> Carrito</Link>
+      <Link  className="enc_nav"   to="/productos">Productos</Link>
+      <Link className="enc_nav"  to="/productos/aretes"> Aretes</Link>
+      <Link className="enc_nav"  to="/productos/poleras"> Poleras</Link>
+      <Link className="enc_nav"  to="/Carrito"> Carrito</Link>
     </nav >
   )
 
