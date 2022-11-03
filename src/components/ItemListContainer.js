@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from 'react-bootstrap'
 
-function ItemListContainer(props) {
+function ItemListContainer(props) {  
   return (
     <div>
       <h2>{props.title}</h2>
@@ -11,12 +11,11 @@ function ItemListContainer(props) {
         <li>Electro Hogar</li>
         <li> Dormitorio</li>
         <li> Muebles</li>
-        <Button>click</Button>
-      
-      </ul>
-      <span className="material-symbols-outlined">
-            menu
+        <span className="material-symbols-outlined">
+            flight 
         </span>
+        <Button></Button>
+      </ul>
     </div>
   );
 }

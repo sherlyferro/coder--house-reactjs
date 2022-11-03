@@ -1,8 +1,26 @@
 import React from 'react';
+/*
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/Navbar';*/
 import CartWidget from './CartWidget';
+import { Link } from 'react-router-dom'
+
+
+const Nav = () => {
+  return (
+    <nav className="encabezado">
+      <CartWidget />
+      <Link to="/aretes"> aretes</Link>
+      <Link to="/Polos"> Polos</Link>
+      <Link to="/SOmbreros"> Sombreros</Link>
+      <Link to="/Carrito"> Carrito</Link>
+    </nav >
+  )
+
+
+}
+/*
 
 function Nabvar() {
   return (
@@ -23,5 +41,5 @@ function Nabvar() {
     </Navbar>
   );
 }
-
-export default Nabvar;
+*/
+export default Nav;

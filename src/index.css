@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.encabezado{
+    background-color: rgb(251, 137, 66);
+}
 
 .pie-de-pagina {
     text-align: center;
