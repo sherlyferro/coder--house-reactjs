@@ -19,8 +19,11 @@
     font-size: 20px;
 
 }
+main{
+    background: rgb(140,233,237);
+background: linear-gradient(90deg, rgba(140,233,237,1) 12%, rgba(201,197,255,1) 55%, rgba(151,217,221,1) 79%, rgba(50,245,233,1) 100%);
+}
 
-.enc_nav:hover {}
 
 .pie-de-pagina {
     text-align: center;

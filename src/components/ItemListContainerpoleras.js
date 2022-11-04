@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 
 
 let productosIniciales = [
-    { id: 1, nombre: "poleras 1",precio:20, categoria: "polos", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" },
-    { id: 2, nombre: "poleras 2",precio:50, categoria: "polos", img:"https://www.yanbal.com/medias/25032492-01.jpg-Yanbal-OriginalFormat-145Wx145H?context=bWFzdGVyfGltYWdlc3w2OTExfGltYWdlL2pwZWd8aW1hZ2VzL2g4Yy9oYzcvOTE5NTk1OTc0NjU5MC5qcGd8ZWIwNzAxYmUwNDFlYjRhZDIxNjMzODkyMDJiMTYyYTZkYzVlODQ2ZWJiYjYzZDQ3M2Q3ZDBmNDkzYjUwZGY0Yg" },
+    { id: 1, nombre: "poleras 1",precio:20, categoria: "polos", img:"https://i.pinimg.com/564x/92/92/a5/9292a5b560e129c225d4ea65abadab3a.jpg" },
+    { id: 2, nombre: "poleras 2",precio:50, categoria: "polos", img:"https://i.pinimg.com/564x/52/7d/04/527d049f2cad46d50cf20ec75e1b9b0f.jpg" },
 
 ]
 const ItemListContainerPoleras= () => {
